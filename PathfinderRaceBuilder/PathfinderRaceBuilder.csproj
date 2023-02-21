@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0B3E66AD-22D5-49A8-9768-38C4893A9043}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PathfinderRaceBuilder</RootNamespace>
+    <AssemblyName>PFRaceBuilder</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;RACE_BUILDER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>PFRBIcon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AttributeControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AttributeControl.Designer.cs">
+      <DependentUpon>AttributeControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BonusFeatRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BonusFeatRacialTraitForm.Designer.cs">
+      <DependentUpon>BonusFeatRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BreathWeaponRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BreathWeaponRacialTraitForm.Designer.cs">
+      <DependentUpon>BreathWeaponRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnergyTypeMultipleRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EnergyTypeMultipleRacialTraitForm.Designer.cs">
+      <DependentUpon>EnergyTypeMultipleRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FavoredTerrainRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FavoredTerrainRacialTraitForm.Designer.cs">
+      <DependentUpon>FavoredTerrainRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GenericSingleItemSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GenericSingleItemSelectionForm.Designer.cs">
+      <DependentUpon>GenericSingleItemSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HatredRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HatredRacialTraitForm.Designer.cs">
+      <DependentUpon>HatredRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LanguageSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LanguageSelectionForm.Designer.cs">
+      <DependentUpon>LanguageSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaceBuilderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaceBuilderForm.Designer.cs">
+      <DependentUpon>RaceBuilderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaceDeletionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaceDeletionForm.Designer.cs">
+      <DependentUpon>RaceDeletionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaceSelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaceSelectionForm.Designer.cs">
+      <DependentUpon>RaceSelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkillBonusRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkillBonusRacialTraitForm.Designer.cs">
+      <DependentUpon>SkillBonusRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkillTrainingRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkillTrainingRacialTraitForm.Designer.cs">
+      <DependentUpon>SkillTrainingRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SLASelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SLASelection.Designer.cs">
+      <DependentUpon>SLASelection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpellLikeAbilitySelectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpellLikeAbilitySelectionForm.Designer.cs">
+      <DependentUpon>SpellLikeAbilitySelectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraitCallbacks.cs" />
+    <Compile Include="TraitManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TraitManager.Designer.cs">
+      <DependentUpon>TraitManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateChecker.cs" />
+    <Compile Include="WeaponFamiliarityRacialTraitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WeaponFamiliarityRacialTraitForm.Designer.cs">
+      <DependentUpon>WeaponFamiliarityRacialTraitForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AttributeControl.resx">
+      <DependentUpon>AttributeControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BonusFeatRacialTraitForm.resx">
+      <DependentUpon>BonusFeatRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BreathWeaponRacialTraitForm.resx">
+      <DependentUpon>BreathWeaponRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EnergyTypeMultipleRacialTraitForm.resx">
+      <DependentUpon>EnergyTypeMultipleRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FavoredTerrainRacialTraitForm.resx">
+      <DependentUpon>FavoredTerrainRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GenericSingleItemSelectionForm.resx">
+      <DependentUpon>GenericSingleItemSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HatredRacialTraitForm.resx">
+      <DependentUpon>HatredRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LanguageSelectionForm.resx">
+      <DependentUpon>LanguageSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="RaceBuilderForm.resx">
+      <DependentUpon>RaceBuilderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaceDeletionForm.resx">
+      <DependentUpon>RaceDeletionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaceSelectionForm.resx">
+      <DependentUpon>RaceSelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkillBonusRacialTraitForm.resx">
+      <DependentUpon>SkillBonusRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkillTrainingRacialTraitForm.resx">
+      <DependentUpon>SkillTrainingRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SLASelection.resx">
+      <DependentUpon>SLASelection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpellLikeAbilitySelectionForm.resx">
+      <DependentUpon>SpellLikeAbilitySelectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraitManager.resx">
+      <DependentUpon>TraitManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WeaponFamiliarityRacialTraitForm.resx">
+      <DependentUpon>WeaponFamiliarityRacialTraitForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PFRBIcon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PathfinderSystem\PathfinderSystem.csproj">
+      <Project>{4FE561E5-72A1-4E41-B63D-5B38CF729070}</Project>
+      <Name>PathfinderSystem</Name>
+      <Private>False</Private>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\VitruvianIcon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(ProjectDir)\..\PathfinderSystem\bin\$(ConfigurationName)\PathfinderSystem.dll" "$(TargetDir)\Data"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

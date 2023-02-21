@@ -1,0 +1,1901 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RaceDatabase>
+    <!-- CORE RACES -->
+    <Race Points="11">
+        <Name>Dwarf</Name>
+        <NamePlural>Dwarves</NamePlural>
+        <NameAdjective>Dwarven</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Dwarves are a stoic but stern race, ensconced in cities carved from the hearts of mountains and fiercely determined to repel the depredations of savage races like orcs and goblins. More than any other race, dwarves have acquired a reputation as dour and humorless artisans of the earth. It could be said that their history shapes the dark disposition of many dwarves, for they reside in high mountains and dangerous realms below the earth, constantly at war with giants, goblins, and other such horrors.</FlavorText>
+        <AppearanceDescription>Dwarves are a short and stocky race, and stand about a foot shorter than most humans, with wide, compact bodies that account for their burly appearance. Male and female dwarves pride themselves on the long length of their hair, and men often decorate their beards with a variety of clasps and intricate braids. Clean-shavenness on a male dwarf is a sure sign of madness, or worse—no one familiar with their race trusts a beardless dwarven man.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>dwarf</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>20</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Dwarven</StartingLanguages>
+        <AvailableLanguages>Giant,Gnome,Goblin,Orc,Terran,Undercommon</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Defensive Training, Lesser</Name>
+                <Rank>Giants</Rank>
+            </Trait>
+            <Trait>
+                <Name>Hardy</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Stability</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Greed</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Stonecunning</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Hatred</Name>
+                <Rank>Goblinoid;Orc</Rank>
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Battleaxe;Dwarven Weapons</Rank>
+                <Rank>Heavy Pick;Warhammer</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="10">
+        <Name>Elf</Name>
+        <NamePlural>Elves</NamePlural>
+        <NameAdjective>Elven</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>The long-lived elves are children of the natural world, similar in many superficial ways to fey creatures, though with key differences. While fey are truly linked to the flora and fauna of their homes, existing as the nearly immortal voices and guardians of the wilderness, elves are instead mortals who are in tune with the natural world around them. Elves seek to live in balance with the wild and understand it better than most other mortals. Some of this understanding is mystical, but an equal part comes from the elves' long lifespans, which in turn gives them long-ranging outlooks. Elves can expect to remain active in the same locale for centuries. By necessity, they must learn to maintain sustainable lifestyles, and this is most easily done when they work with nature, rather than attempting to bend it to their will. However, their links to nature are not entirely driven by pragmatism. Elves' bodies slowly change over time, taking on a physical representation of their mental and spiritual states, and those who dwell in a region for a long period of time find themselves physically adapting to match their surroundings, most noticeably taking on coloration that reflects the local environment.</FlavorText>
+        <AppearanceDescription>Generally taller than humans, elves possess a graceful, slender physique that is accentuated by their long, pointed ears. It is a mistake, however, to consider them weak or feeble, as the thin limbs of an elf can contain surprising power. Their eyes are wide and almond-shaped, and filled with large, vibrantly colored pupils. The coloration of elves as a whole varies wildly, and is much more diverse than that of human populations. However, as their coloration often matches their surroundings, the elves of a single community may appear quite similar. Forest-dwelling elves often have variations of green, brown, and tan in their hair, eye, and even skin tones.
+
+While elven clothing often plays off the beauty of the natural world, those elves who live in cities tend to bedeck themselves in the latest fashions. Where city-dwelling elves encounter other urbanites, the elves are often fashion trendsetters.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>elf</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+2</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Elven</StartingLanguages>
+        <AvailableLanguages>Celestial,Draconic,Gnoll,Gnome,Goblin,Orc,Sylvan</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Elven Immunities</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Perception</Rank>
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Elven Magic</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Bows;Elven Weapons</Rank>
+                <Rank>Longsword;Rapier</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="10">
+        <Name>Gnome</Name>
+        <NamePlural>Gnomes</NamePlural>
+        <NameAdjective>Gnome</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Gnomes are distant relatives of the fey, and their history tells of a time when they lived in the fey's mysterious realm, a place where colors are brighter, the wildlands wilder, and emotions more primal. Unknown forces drove the ancient gnomes from that realm long ago, forcing them to seek refuge in this world; despite this, the gnomes have never completely abandoned their fey roots or adapted to mortal culture. Though gnomes are no longer truly fey, their fey heritage can be seen in their innate magic powers, their oft-capricious natures, and their outlooks on life and the world.</FlavorText>
+        <AppearanceDescription>The coloration of gnomes varies so wildly that many outsiders assume gnomes commonly use dyes and illusions to change their skin and hair tones. While gnomes are certainly not above cosmetic enhancement (and may wish to change their appearance just to see how outlandish they can look), their natural hues truly range over a rainbow of coloration. Their hair tends toward vibrant colors such as the fiery orange of autumn leaves, the verdant green of forests at springtime, or the deep reds and purples of wildflowers in bloom. Similarly, their flesh tones range from earthy browns to floral pinks, and gnomes with black, pastel blue, or even green skin are not unknown. Gnomes' coloration has little regard for heredity, with the color of a gnome's parents and other kin having no apparent bearing on the gnome's appearance. Gnomes possess highly mutable facial characteristics, and their proportions often don't match the norm of other humanoid races. Many have overly large mouths and eyes, an effect which can be both disturbing and stunning, depending on the individual. Others may have extremely small features spread over an otherwise blank expanse of face, or may mix shockingly large eyes with a tiny, pursed mouth and a pert button of a nose. Gnomes rarely take pride in or show embarrassment about their features, but members of other races often fixate on a gnome's most prominent feature and attempt to use it as the focus of insults or endearments.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>gnome</Subtype>
+        <Size>Small</Size>
+        <BaseSpeed>20</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-2</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Gnome,Sylvan</StartingLanguages>
+        <AvailableLanguages>Draconic,Dwarven,Elven,Giant,Goblin,Orc</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Defensive Training, Lesser</Name>
+                <Rank>Giants</Rank>
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Perception</Rank>
+                <Rank>Craft</Rank>
+            </Trait>
+            <Trait>
+                <Name>Gnome Magic</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Hatred</Name>
+                <Rank>Goblinoid;Reptilian</Rank>
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Illusion Resistance</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Gnome Weapons</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="10">
+        <Name>Half-Elf</Name>
+        <NamePlural>Half-Elves</NamePlural>
+        <NameAdjective>Half-Elven</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Elves have long drawn the covetous gazes of other races. Their generous lifespans, magical affinity, and inherent grace each contribute to the admiration or bitter envy of their neighbors. Of all their traits, however, none so entrance their human associates as their beauty. Since the two races first came into contact with each other, humans have held up elves as models of physical perfection, seeing in these fair folk idealized versions of themselves. For their part, many elves find humans attractive despite their comparatively barbaric ways, and are drawn to the passion and impetuosity with which members of the younger race play out their brief lives.
+
+Sometimes this mutual infatuation leads to romantic relationships. Though usually short-lived, even by human standards, such trysts may lead to the birth of half-elves, a race descended from two cultures yet inheritor of neither. Half-elves can breed with one another, but even these “pureblood” half-elves tend to be viewed as bastards by humans and elves alike. Caught between destiny and derision, half-elves often view themselves as the middle children of the world.</FlavorText>
+        <AppearanceDescription>Half-elves stand taller than humans but shorter than elves. They inherit the lean build and comely features of their elven lineage, but their skin color is normally dictated by their human side. While half-elves retain the pointed ears of elves, theirs are more rounded and less pronounced. Their eyes tend to be human-like in shape, but feature an exotic range of colors from amber or violet to emerald green and deep blue. This pattern changes for half-elves of drow descent, however. Such elves are almost unfailingly marked with the white or silver hair of the drow parent, and more often than not have dusky gray skin that takes on a purplish or bluish tinge in the right light, while their eye color usually favors that of the human parent.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>human,elf</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>HumanHeritage</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Linguist</LanguageQuality>
+        <StartingLanguages>Common,Elven</StartingLanguages>
+        <AvailableLanguages>All</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Elven Immunities</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Perception</Rank>
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Multitalented</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Static Bonus Feat</Name>
+                <Rank>Skill Focus</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="9">
+        <Name>Halfling</Name>
+        <NamePlural>Halflings</NamePlural>
+        <NameAdjective>Halfling</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Optimistic and cheerful by nature, blessed with uncanny luck, and driven by a powerful wanderlust, halflings make up for their short stature with an abundance of bravado and curiosity. At once excitable and easy-going, halflings like to keep an even temper and a steady eye on opportunity, and are not as prone to violent or emotional outbursts as some of the more volatile races. Even in the jaws of catastrophe, halflings almost never lose their sense of humor. Their ability to find humor in the absurd, no matter how dire the situation, often allows halflings to distance themselves ever so slightly from the dangers that surround them. This sense of detachment can also help shield them from terrors that might immobilize their allies.</FlavorText>
+        <AppearanceDescription>Halflings rise to a humble height of 3 feet. They prefer to walk barefoot, leading the bottoms of their feet to become roughly calloused. Tufts of thick, curly hair warm the tops of their broad, tanned feet.
+
+Their skin tends toward a rich cinnamon color and their hair toward light shades of brown. A halfling's ears are pointed, but proportionately not much larger than those of a human.
+
+Halflings prefer simple and modest clothing. Though willing and able to dress up if the situation demands it, their racial urge to remain quietly in the background makes them rather conservative dressers in most situations. Halfling entertainers, on the other hand, make their livings by drawing attention, and tend to go overboard with gaudy and flashy costumes.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>halfling</Subtype>
+        <Size>Small</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-2</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Halfling</StartingLanguages>
+        <AvailableLanguages>Dwarven,Elven,Gnome,Goblin</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Fearless</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Lucky, Lesser</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Acrobatics</Rank>
+                <Rank>Climb</Rank>
+                <Rank>Perception</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="8">
+        <Name>Half-Orc</Name>
+        <NamePlural>Half-Orcs</NamePlural>
+        <NameAdjective>Half-Orc</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>As seen by civilized races, half-orcs are monstrosities, the result of perversion and violence—whether or not this is actually true. Half-orcs are rarely the result of loving unions, and as such are usually forced to grow up hard and fast, constantly fighting for protection or to make names for themselves. Half-orcs as a whole resent this treatment, and rather than play the part of the victim, they tend to lash out, unknowingly confirming the biases of those around them. A few feared, distrusted, and spat-upon half-orcs manage to surprise their detractors with great deeds and unexpected wisdom—though sometimes it's easier just to crack a few skulls. Some half-orcs spend their entire lives proving to full-blooded orcs that they are just as fierce. Others opt for trying to blend into human society, constantly demonstrating that they aren't monsters. Their need to always prove themselves worthy encourages half-orcs to strive for power and greatness within the society around them.</FlavorText>
+        <AppearanceDescription>Half-orcs average around 6 feet tall, with powerful builds and greenish or grayish skin. Their canine teeth often grow long enough to protrude from their mouths, and these “tusks,” combined with heavy brows and slightly pointed ears, give them their notoriously bestial appearance. While half-orcs may be impressive, few ever describe them as beautiful. Despite these obvious orc traits, half-orcs are as varied as their human parents.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>human,orc</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>HumanHeritage</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Orc</StartingLanguages>
+        <AvailableLanguages>Abyssal,Draconic,Giant,Gnoll,Goblin</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Intimidate</Rank>
+            </Trait>
+            <Trait>
+                <Name>Orc Ferocity</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Falchion;Greataxe</Rank>
+                <Rank>Orc Weapons</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="9">
+        <Name>Human</Name>
+        <NamePlural>Humans</NamePlural>
+        <NameAdjective>Human</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Humans possess exceptional drive and a great capacity to endure and expand, and as such are currently the dominant race in the world. Their empires and nations are vast, sprawling things, and the citizens of these societies carve names for themselves with the strength of their sword arms and the power of their spells. Humanity is best characterized by its tumultuousness and diversity, and human cultures run the gamut from savage but honorable tribes to decadent, devil-worshiping noble families in the most cosmopolitan cities. Humans' curiosity and ambition often triumph over their predilection for a sedentary lifestyle, and many leave their homes to explore the innumerable forgotten corners of the world or lead mighty armies to conquer their neighbors, simply because they can.</FlavorText>
+        <AppearanceDescription>The physical characteristics of humans are as varied as the world's climes. From the dark-skinned tribesmen of the southern continents to the pale and barbaric raiders of the northern lands, humans possess a wide variety of skin colors, body types, and facial features. Generally speaking, humans' skin color assumes a darker hue the closer to the equator they live. At the same time, bone structure, hair color and texture, eye color, and a host of facial and bodily phenotypic characteristics vary immensely from one locale to another. Cheekbones may be high or broad, noses aquiline or flat, and lips full or thin; eyes range wildly in hue, some deep set in their sockets, and others with full epicanthic folds. Appearance is hardly random, of course, and familial, tribal, or national commonalities often allow the knowledgeable to identify a human's place of origin on sight, or at least to hazard a good guess. Humans' origins are also indicated through their traditional styles of bodily decoration, not only in the clothing or jewelry worn, but also in elaborate hairstyles, piercing, tattooing, and even scarification.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>human</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>HumanHeritage</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Linguist</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <AvailableLanguages>All</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Flexible Bonus Feat</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skilled</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <!-- FEATURED RACES -->
+    <Race Points="15">
+        <Name>Aasimar</Name>
+        <NamePlural>Aasimars</NamePlural>
+        <NameAdjective>Aasimar</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Aasimars are humans with a significant amount of celestial or other good outsider blood in their ancestry. While not always benevolent, aasimars are more inclined toward acts of kindness rather than evil, and they gravitate toward faiths or organizations associated with celestials. Aasimar heritage can lie dormant for generations, only to appear suddenly in the child of two apparently human parents. Most societies interpret aasimar births as good omens, though it must be acknowledged that some aasimars take advantage of the reputation of their kind, brutally subverting the expectations of others with acts of terrifying cruelty or abject venality. “It's always the one you least suspect” is the axiom these evil aasimars live by, and they often lead double lives as upstanding citizens or false heroes, keeping their corruption well hidden. Thankfully, these few are the exception and not the rule</FlavorText>
+        <AppearanceDescription>Aasimars look mostly human except for some minor physical trait that reveals their unusual heritage. Typical aasimar features include hair that shines like metal, jewel-toned eyes, lustrous skin color, or even glowing, golden halos.</AppearanceDescription>
+        <Type>Outsider (Native)</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Flexible</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Celestial,Common</StartingLanguages>
+        <AvailableLanguages>Draconic,Dwarven,Elven,Gnome,Halfling,Sylvan</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Celestial Resistance</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Diplomacy</Rank>
+                <Rank>Perception</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Greater</Name>
+                <Rank>Daylight</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="9">
+        <Name>Catfolk</Name>
+        <NamePlural>Catfolk</NamePlural>
+        <NameAdjective>Catfolk</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Catfolk are a race of natural explorers who rarely tire of trailblazing, but such trailblazing is not limited merely to the search for new horizons in distant lands. Many catfolk see personal growth and development as equally valid avenues of exploration. While most catfolk are nimble, capable, and often active creatures, there is also a strong tendency among some catfolk to engage in quiet contemplation and study. Such individuals are interested in finding new solutions to age-old problems and questioning even the most steadfast philosophical certainties of the day. They are curious by nature, and catfolk culture never discourages inquisitiveness, but rather fosters and encourages it. Many are seen as quirky extroverts by members of other races, but within catfolk tribes there is no shame attached to minor peculiarities, eccentricities, or foolhardiness. All but the most inwardly focused catfolk enjoy being the center of attention, but not at the expense of their tribe, whether it's the one the catfolk are born into or the tribe they choose through the bonds of friendship with other creatures. catfolk tend to be both generous and loyal to their family and friends.</FlavorText>
+        <AppearanceDescription>In general, catfolk are lithe and slender, standing midway between dwarves and humans in stature. While clearly humanoid, they possess many feline features, including a coat of soft fine fur, slit pupils, and a sleek, slender tail. Their ears are pointed, but unlike those of elves, are more rounded and catlike. They manipulate objects as easily as any other humanoid, but their fingers terminate in small, sharp, retractable claws. These claws are typically not powerful enough to be used as weapons, but some members of the species—either by quirk of birth or from years of honing—can use them with deadly effect. Feline whiskers are not uncommon, but not universal, and hair and eye color vary greatly.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>catfolk</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <AvailableLanguages>Elven,Gnoll,Gnome,Goblin,Halfling,Orc,Sylvan</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Perception</Rank>
+                <Rank>Stealth</Rank>
+                <Rank>Survival</Rank>
+            </Trait>
+            <Trait>
+                <Name>Cat's Luck</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Sprinter</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="11">
+        <Name>Dhampir</Name>
+        <NamePlural>Dhampirs</NamePlural>
+        <NameAdjective>Dhampir</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>The half-living children of vampires birthed by human females, dhampirs are progenies of both horror and tragedy. The circumstances of a dhampir's conception are often called into question but scarcely understood, as few mortal mothers survive the childbirth. Those who do often abandon their monstrous children and refuse to speak of the matter. While some speculate that dhampirs result when mortal women couple with vampires, others claim that they form when a pregnant woman suffers a vampire bite. Some particularly zealous scholars even contest dhampirs' status as a unique race, instead viewing them as humans suffering from an unholy affliction. Indeed, this hypothesis is strengthened by dhampirs' seeming inability to reproduce, their offspring inevitably humans (usually sorcerers with the undead bloodline).</FlavorText>
+        <AppearanceDescription>Tall and slender and with well-defined musculature, dhampirs look like statuesque humans of unearthly beauty. Their hair, eye, and skin colors resemble unnerving versions of their mothers'; many possess a ghastly pallor, particularly in the sunlight, while those with dark complexions often possess skin the color of a bruise.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>dhampir</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Linguist</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <AvailableLanguages>All</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Undead Resistance</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Resist Level Drain</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Bluff</Rank>
+                <Rank>Perception</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Detect Undead</Rank>
+                <Rank>Detect Undead</Rank>
+                <Rank>Detect Undead</Rank>
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Light Sensitivity</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Negative Energy Affinity</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="14">
+        <Name>Drow</Name>
+        <NamePlural>Drow</NamePlural>
+        <NameAdjective>Drow</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Cruel and cunning, drow are a dark reflection of the elven race. Also called dark elves, they dwell deep underground in elaborate cities shaped from the rock of cyclopean caverns. drow seldom make themselves known to surface folk, preferring to remain legends while advancing their sinister agendas through proxies and agents. drow have no love for anyone but themselves, and are adept at manipulating other creatures. While they are not born evil, malignancy is deep-rooted in their culture and society, and nonconformists rarely survive for long. Some stories tell that given the right circumstances, a particularly hateful elf might turn into a drow, though such a transformation would require a truly heinous individual.</FlavorText>
+        <AppearanceDescription>Drow are similar in stature to humans, but share the slender build and features of elves, including the distinctive long, pointed ears. Their eyes lack pupils and are usually solid white or red. drow skin ranges from coal black to a dusky purple. Their hair is typically white or silver, though some variation is not unknown.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>elf</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Elven,Undercommon</StartingLanguages>
+        <AvailableLanguages>Abyssal,Aklo,Common,Draconic,Drow Sign Language,Gnome,Goblin</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Elven Immunities</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell Resistance, Lesser</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Dancing Lights</Rank>
+                <Rank>Darkness</Rank>
+                <Rank>Faerie Fire</Rank>
+            </Trait>
+            <Trait>
+                <Name>Poison Use</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Hand Crossbow;Rapier</Rank>
+                <Rank>Short Sword</Rank>
+            </Trait>
+            <Trait>
+                <Name>Darkvision 120 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Light Blindness</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Perception</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="17">
+        <Name>Fetchling</Name>
+        <NamePlural>Fetchlings</NamePlural>
+        <NameAdjective>Fetchling</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Descended from humans trapped on the Shadow Plane, fetchlings are creatures of darkness and light intertwined. Generations of contact with that strange plane and its denizens have made fetchlings a race apart from humanity. While fetchlings acknowledge their origins, they exhibit little physical or cultural resemblance to their ancestors on the Material Plane, and are often insulted when compared to humans. Some members of the race also take offense at the name fetchling, as it was given to them by humans who saw them as little more than fetchers of rare materials from the Shadow Plane. Most fetchlings instead prefer to be called kayal, a word borrowed from Aklo that roughly translates to “shadow people” or “dusk dwellers.” Infused with the essence of the Shadow Plane and possessing human blood commingled with that of the Shadow Plane's natives, fetchlings have developed traits and abilities that complement their native plane's bleak and colorless terrain. Though most fetchlings treat the Shadow Plane as home, they often trade and deal with creatures of the Material Plane. Some fetchlings go so far as to create enclaves on the Material Plane in order to establish alliances and trade routes in areas where the boundary between the two planes is less distinct. These fetchlings often serve as merchants, middlemen, and guides for races on both sides of the planar boundary.</FlavorText>
+        <AppearanceDescription>Superficially, fetchlings resemble unnaturally lithe—bordering on fragile—humans. Their adopted home has drained their skin and hair of bright colors. Their complexion ranges from stark white to deep black, and includes all the various shades of gray between those two extremes. Their eyes are pupilless and pronounced, and they typically glow a luminescent shade of yellow or greenish yellow, though rare individuals possess blue-green eyes. While their hair tends to be stark white or pale gray, many fetchlings dye their hair black. Some members of higher station or those who dwell on the Material Plane dye their hair with more striking colors, often favoring deep shades of violet, blue, and crimson.</AppearanceDescription>
+        <Type>Outsider (Native)</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>-2</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <AvailableLanguages>Aklo,Aquan,Auran,Draconic,Ignan,Terran</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Shadow Blending</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Shadow Resistance</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Knowledge (Planes)</Rank>
+                <Rank>Stealth</Rank>
+            </Trait>
+            <Trait>
+                <Name>Shadow Travel</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Disguise Self</Rank>
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="10">
+        <Name>Goblin</Name>
+        <NamePlural>Goblins</NamePlural>
+        <NameAdjective>Goblin</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Goblins are a race of childlike creatures with a destructive and voracious nature that makes them almost universally despised. Weak and cowardly, goblins are frequently manipulated or enslaved by stronger creatures that need destructive, disposable foot soldiers. Those goblins that rely on their own wits to survive live on the fringes of society and feed on refuse and the weaker members of more civilized races. Most other races view them as virulent parasites that have proved impossible to exterminate.</FlavorText>
+        <AppearanceDescription>Goblins are short, ugly humanoids that stand just over 3 feet tall. Their scrawny bodies are topped with over-sized and usually hairless heads with massive ears and beady red or occasionally yellow eyes. Goblins' skin tone varies based on the surrounding environment; common skin tones include green, gray, and blue, though black and even pale white goblins have been sighted. Their voracious appetites are served well by their huge mouths filled with jagged teeth.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>goblinoid</Subtype>
+        <Size>Small</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>GreaterParagon</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-2</Strength>
+            <Dexterity>+4</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Goblin</StartingLanguages>
+        <AvailableLanguages>Draconic,Dwarven,Gnoll,Gnome,Halfling,Orc</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Sneaky Rider</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="9">
+        <Name>Hobgoblin</Name>
+        <NamePlural>Hobgoblins</NamePlural>
+        <NameAdjective>Hobgoblin</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Fierce and militaristic, hobgoblins survive by conquest. The raw materials to fuel their war machines come from raids, their armaments and buildings from the toil of slaves worked to death. Naturally ambitious and envious, hobgoblins seek to better themselves at the expense of others of their kind, yet in battle they put aside petty differences and fight with discipline rivaling that of the finest soldiers. Hobgoblins have little love or trust for one another, and even less for outsiders. Life for these brutes consists of duty to those of higher station, domination of those below, and the rare opportunities to seize personal glory and elevate their status.</FlavorText>
+        <AppearanceDescription>Burly and muscled, hobgoblins stand a few inches shorter than the average human, and their long arms, thick torsos, and relatively short legs give them an almost apelike stature. Hobgoblins' skin is a sickly gray-green that darkens to mossy green after long exposure to the sun. Their eyes burn fiery orange or red, and their broad faces and sharply pointed ears give their features a somewhat feline cast. Hobgoblins lack facial hair, and even hobgoblin women are bald. Except for their size, hobgoblins bear a strong physical resemblance to their goblin cousins.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>goblinoid</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Flexible</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Goblin</StartingLanguages>
+        <AvailableLanguages>Draconic,Dwarven,Giant,Infernal,Orc</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Sneaky</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="6">
+        <Name>Ifrit</Name>
+        <NamePlural>Ifrits</NamePlural>
+        <NameAdjective>Ifrit</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Humans whose ancestry includes beings of elemental fire such as efreet, ifrits are a passionate and fickle race. No ifrit is satisfied with a sedentary life; like a wildfire, ifrits must keep moving or burn away into nothingness. Ifrits not only adore flames, but personify multiple aspects of them as well, embodying both fire's dynamic, ever-changing energy and its destructive, pitiless nature.</FlavorText>
+        <AppearanceDescription>Ifrits vary in appearance as widely as their elemental ancestors do. Most have pointy ears, red or mottled horns on the brow, and hair that flickers and waves as if it were aflame. Some possess skin the color of polished brass or have charcoal-hued scales covering their arms and legs. Ifrits favor revealing and ostentatious clothing in bright oranges and reds, preferably paired with gaudy jewelry.</AppearanceDescription>
+        <Type>Outsider (Native)</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>-2</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Ignan</StartingLanguages>
+        <AvailableLanguages>Aquan,Auran,Dwarven,Elven,Gnome,Halfling,Terran</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Energy Resistance</Name>
+                <Rank>Fire</Rank>
+            </Trait>
+            <Trait>
+                <Name>Elemental Affinity</Name>
+                <Rank>Fire</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Burning Hands</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="5">
+        <Name>Kobold</Name>
+        <NamePlural>Kobolds</NamePlural>
+        <NameAdjective>Kobold</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Kobolds are weak, craven, and seethe with a festering resentment for the rest of the world, especially members of races that seem stronger, smarter, or superior to them in any way. They proudly claim kinship to dragons, but beneath all the bluster, the comparison to their glorious cousins leaves kobolds with a profound sense of inadequacy. Though they are hardworking, clever, and blessed with a natural talent for mechanical devices and mining, they spend their days nursing grudges and hatreds instead of celebrating their own gifts. Kobold tactics specialize in traps and ambushes, but kobolds enjoy anything that allows them to harm others without putting themselves at risk. Often, they seek to capture rather than to kill, taking out their frustrations on the helpless victims they drag back to their claustrophobic lairs.</FlavorText>
+        <AppearanceDescription>Kobolds are small, bipedal reptilian humanoids. Most stand around 3 feet tall and weigh about 35 pounds. They have powerful jaws for creatures of their size and noticeable claws on their hands and feet. Often kobolds' faces are curiously devoid of expression, as they favor showing their emotions by simply swishing their tails. Kobolds' thick hides vary in color, and most have scales that match the hue of one of the varieties of chromatic dragons, with red scales being predominant. A few kobolds, however, have more exotic colors such as orange or yellow, which in some tribes raises or lowers an individual's status in the eyes of his fellows.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>reptilian</Subtype>
+        <Size>Small</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>GreaterWeakness</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-4</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Draconic</StartingLanguages>
+        <AvailableLanguages>Dwarven,Gnome,Undercommon</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Craft</Rank>
+                <Rank>Profession</Rank>
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Light Sensitivity</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Training</Name>
+                <Rank>Craft;Profession</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="8">
+        <Name>Orc</Name>
+        <NamePlural>Orcs</NamePlural>
+        <NameAdjective>Orc</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Orcs are aggressive, callous, and domineering. Bullies by nature, they respect strength and power as the highest virtues. On an almost instinctive level, orcs believe they are entitled to anything they want unless someone stronger can stop them from seizing it. They rarely exert themselves off the battlefield except when forced to do so; this attitude stems not just from laziness but also from an ingrained belief that work should trickle down through the pecking order until it falls upon the shoulders of the weak. They take slaves from other races, orc men brutalize orc women, and both abuse children and elders, on the grounds that anyone too feeble to fight back deserves little more than a life of suffering. Surrounded at all times by bitter enemies, orcs cultivate an attitude of indifference to pain, vicious tempers, and a fierce willingness to commit unspeakable acts of vengeance against anyone who dares to defy them.</FlavorText>
+        <AppearanceDescription />
+        <Type>Humanoid</Type>
+        <Subtype>orc</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Paragon</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+4</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>-2</Intelligence>
+            <Wisdom>-2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Orc</StartingLanguages>
+        <AvailableLanguages>Dwarven,Giant,Gnoll,Goblin,Undercommon</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Ferocity</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Falchion;Greataxe</Rank>
+                <Rank>Orc Weapons</Rank>
+            </Trait>
+            <Trait>
+                <Name>Light Sensitivity</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="5">
+        <Name>Oread</Name>
+        <NamePlural>Oreads</NamePlural>
+        <NameAdjective>Oread</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Oreads are humans whose ancestry includes the touch of an elemental being of earth somewhere along the line, often that of a shaitan genie. Stoic and contemplative, oreads are a race not easily moved, yet almost unstoppable when spurred to action. They remain a mystery to most of the world thanks to their reclusive nature, but those who seek them out in their secluded mountain hideaways find oreads to be quiet, dependable, and protective of their friends.</FlavorText>
+        <AppearanceDescription />
+        <Type>Outsider (Native)</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>20</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+2</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Terran</StartingLanguages>
+        <AvailableLanguages>Aquan,Auran,Dwarven,Elven,Gnome,Ignan,Undercommon</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Energy Resistance</Name>
+                <Rank>Acid</Rank>
+            </Trait>
+            <Trait>
+                <Name>Elemental Affinity</Name>
+                <Rank>Acid</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Magic Stone</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="10">
+        <Name>Ratfolk</Name>
+        <NamePlural>Ratfolk</NamePlural>
+        <NameAdjective>Ratfolk</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Ratfolk are small, rodent-like humanoids; originally native to subterranean areas in dry deserts and plains, they are now more often found in nomadic trading caravans. Much like the pack rats they resemble, ratfolk are tinkerers and hoarders by nature, and as a whole are masters of commerce, especially when it comes to acquiring and repairing mechanical or magical devices. Though some are shrewd merchants who carefully navigate the shifting alliances of black markets and bazaars, many ratfolk love their stockpiles of interesting items far more than money, and would rather trade for more such prizes to add to their hoards over mere coins. It's common to see a successful crew of ratfolk traders rolling out of town with an even larger bundle than they entered with, the whole mess piled precariously high on a cart drawn by giant rats.</FlavorText>
+        <AppearanceDescription />
+        <Type>Humanoid</Type>
+        <Subtype>ratfolk</Subtype>
+        <Size>Small</Size>
+        <BaseSpeed>20</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-2</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+2</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Craft</Rank>
+                <Rank>Perception</Rank>
+                <Rank>Use Magic Device</Rank>
+            </Trait>
+            <Trait>
+                <Name>Rodent Empathy</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Swarming</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="6">
+        <Name>Sylph</Name>
+        <NamePlural>Sylphs</NamePlural>
+        <NameAdjective>Sylph</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Born from the descendants of humans and beings of elemental air such as djinn, sylphs are a shy and reclusive race consumed by intense curiosity. Sylphs spend their lives blending into the crowd, remaining unnoticed as they spy and eavesdrop on the people around them. They call this hobby “listening to the wind,” and for many sylphs it becomes an obsession. Sylphs rely on their capable, calculating intellects and on knowledge gleaned from eavesdropping to deliver them from danger.</FlavorText>
+        <AppearanceDescription />
+        <Type>Outsider (Native)</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+2</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Auran,Common</StartingLanguages>
+        <AvailableLanguages>Aquan,Dwarven,Elven,Gnome,Halfling,Ignan,Terran</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Energy Resistance</Name>
+                <Rank>Electricity</Rank>
+            </Trait>
+            <Trait>
+                <Name>Elemental Affinity</Name>
+                <Rank>Electricity</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Feather Fall</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="13">
+        <Name>Tengu</Name>
+        <NamePlural>Tengus</NamePlural>
+        <NameAdjective>Tengu</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>The crowlike tengus are known as a race of scavengers and irrepressible thieves. Covetous creatures predominantly motivated by greed, they are vain and easily won over with flattery. Deceptive, duplicitous, and cunning, tengus seek circumstances in which they can take advantage of the situation, often at the expense of others, including their own kind. They can be highly competitive, but impulsive and rash. Some claim their behavior is innate, while others believe their selfish mannerisms are cultural and developed as a learned adaptation that has enabled their people to endure through centuries of oppression.</FlavorText>
+        <AppearanceDescription>Tengus are avian humanoids whose features strongly resemble crows. They have broad beaks and both their arms and their legs end in powerful talons. Though tengus are unable to fly, iridescent feathers cover their bodies—this plumage is usually black, though occasionally brown or blue-back. Their skin, talons, beaks, and eyes are similarly colored, and most non-tengus have great difficulty telling individuals apart. Tengus who wish to be more easily identified by other humanoids may bleach certain feathers or decorate their beaks with dyes, paint, or tiny glued ornaments. Though they are about the same height as humans, they have slight builds and tend to hunch over. A tengu's eyes sit slightly back and to the sides of his head, giving him binocular vision with a slightly more panoramic field of view than other humanoids. Like many avians, tengus have hollow bones and reproduce by laying eggs.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>tengu</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Linguist</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <AvailableLanguages>All</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Gifted Linguist</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Perception</Rank>
+                <Rank>Stealth</Rank>
+            </Trait>
+            <Trait>
+                <Name>Swordtrained</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Bite</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="13">
+        <Name>Tiefling</Name>
+        <NamePlural>Tieflings</NamePlural>
+        <NameAdjective>Tiefling</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Simultaneously more and less than mortal, tieflings are the offspring of humans and fiends. With otherworldly blood and traits to match, tieflings are often shunned and despised out of reactionary fear. Most tieflings never know their fiendish sire, as the coupling that produced their curse occurred generations earlier. The taint is long-lasting and persistent, often manifesting at birth or sometimes later in life, as a powerful, though often unwanted, boon. Despite their fiendish appearance and netherworld origins, tieflings have a human's capacity of choosing their fate, and while many embrace their dark heritage and side with fiendish powers, others reject their darker predilections. Though the power of their blood calls nearly every tiefling to fury, destruction, and wrath, even the spawn of a succubus can become a saint and the grandchild of a pit fiend an unsuspecting hero.</FlavorText>
+        <AppearanceDescription>No two tieflings look alike; the fiendish blood running through their veins manifests inconsistently, granting them an array of fiendish traits. One tiefling might appear as a human with small horns, a barbed tail, and oddly colored eyes, while another might manifest a mouth of fangs, tiny wings, and claws, and yet another might possess the perpetual smell of blood, foul incenses, and brimstone. Typically, these qualities hearken back in some way to the manner of fiend that spawned the tiefling's bloodline, but even then the admixture of human and fiendish blood is rarely ruled by sane, mortal laws, and the vast flexibility it produces in tieflings is a thing of wonder, running the gamut from oddly beautiful to utterly terrible.</AppearanceDescription>
+        <Type>Outsider (Native)</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+2</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Abyssal,Common,Infernal</StartingLanguages>
+        <AvailableLanguages>Draconic,Dwarven,Elven,Gnome,Goblin,Halfling,Orc</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Fiendish Resistance</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Bluff</Rank>
+                <Rank>Stealth</Rank>
+            </Trait>
+            <Trait>
+                <Name>Fiendish Sorcery</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Darkness</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="6">
+        <Name>Undine</Name>
+        <NamePlural>Undines</NamePlural>
+        <NameAdjective>Undine</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Undines are humans who trace their ancestry to creatures from the Plane of Water. Even at first glance, one notices the potency of their ancestry, for an undine's very flesh mimics the color of lakes, seas, and oceans. Whether they have the blood of marids or water mephits as their kin, all undines define themselves through their ancestry. They perceive their individual differences as gifts and explore the supernatural aspects of their unique heritage to the fullest.</FlavorText>
+        <AppearanceDescription />
+        <Type>Outsider (Native)</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-2</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Aquan,Common</StartingLanguages>
+        <AvailableLanguages>Auran,Dwarven,Elven,Gnome,Halfling,Ignan,Terran</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Energy Resistance</Name>
+                <Rank>Cold</Rank>
+            </Trait>
+            <Trait>
+                <Name>Elemental Affinity</Name>
+                <Rank>Cold</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Hydraulic Push</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <!-- UNCOMMON RACES -->
+    <!-- Changeling? -->
+    <Race Points="8">
+        <Name>Duergar</Name>
+        <NamePlural>Duergar</NamePlural>
+        <NameAdjective>Duergar</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Duergar dwell in subterranean caverns far from the touch of light. They detest all races living beneath the sun, but that hatred pales beside their loathing of their surface-dwarf cousins. Dwarves and duergar once were one race, but the dwarves left the deeps for their mountain strongholds. Duergar still consider themselves the only true dwarves, and the rightful heirs of all beneath the world's surface.</FlavorText>
+        <AppearanceDescription>Duergar resemble gray-skinned dwarves, bearded but bald, with cold, lightless eyes. They favor taking captives in battle over wanton slaughter, save for surface dwarves, who are slain without hesitation. Duergar view life as ceaseless toil ended only by death. Though few can be described as anything other than vile and cruel, duergar still value honor and rarely break their word.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>dwarf</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>20</BaseSpeed>
+        <AttributePackage>Weakness</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>-4</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Dwarven,Undercommon</StartingLanguages>
+        <AvailableLanguages>Aklo,Draconic,Giant,Goblin,Orc,Terran</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Duergar Immunities</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Stability</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Enlarge Person</Rank>
+                <Rank>Invisibility</Rank>
+            </Trait>
+            <Trait>
+                <Name>Darkvision 120 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Light Sensitivity</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <!-- Gillmen? -->
+    <Race Points="7">
+        <Name>Grippli</Name>
+        <NamePlural>Grippli</NamePlural>
+        <NameAdjective>Grippli</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Most gripplis are primitive hunter gatherers, living on large insects and fish found near their treetop homes, and are unconcerned about events outside their swamps. The rare grippli who leaves the safety of the swamp tends to be a ranger or alchemist seeking to trade for metals and gems.</FlavorText>
+        <AppearanceDescription>Gripplis stand just over 2 feet tall and have mottled green-and-brown skin.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>grippli</Subtype>
+        <Size>Small</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-2</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Racial</StartingLanguages>
+        <AvailableLanguages>Draconic,Elven,Gnome,Goblin,Sylvan</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Camouflage</Name>
+                <Rank>Swamp</Rank>
+            </Trait>
+            <Trait>
+                <Name>Terrain Stride</Name>
+                <Rank>Swamp</Rank>
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Net;Snag Net</Rank>
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Climb</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <!-- Kitsune? -->
+    <!-- Merfolk? -->
+    <!-- Nagaji? -->
+    <Race Points="11">
+        <Name>Samsaran</Name>
+        <NamePlural>Samsarans</NamePlural>
+        <NameAdjective>Samsaran</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Mysterious humanoids with pale blue flesh and transparent blood like the waters of a trickling brook, samsarans are ancient creatures even in their youth. A samsaran's life is not a linear progression from birth to death, but rather a circle of birth to death to rebirth. Whenever a samsaran dies, it reincarnates anew as a young samsaran to live a new life. Her past memories remain vague and indistinct—and each new incarnation is as different a creature and personality as a child is to a parent. Samsarans appear similar to humans, with dark hair and solid white eyes with no pupils or irises. Skin tones are generally shades of light blue.</FlavorText>
+        <AppearanceDescription>Capable of recalling the lessons and failings of their previous incarnations, the samsarans seek to live lives of balance and enlightenment in order to ensure they are reborn upon death to continue their trek through history.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>samsaran</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Specialized</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+2</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Linguist</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <AvailableLanguages>All</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Lifebound</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Shards of the Past</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Samsaran Magic</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <!-- Strix? -->
+    <Race Points="21">
+        <Name>Svirfneblin</Name>
+        <NamePlural>Svirfneblins</NamePlural>
+        <NameAdjective>Svirfneblin</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>In the dark below earth, svirfneblin protect their enclaves, keeping their small communities safe from the terrors of the lightless depths. Serious creatures with slate-gray skin, these gnomes vary greatly from their surface cousins by choosing to live in the shadowy depths and protect the world above from the foul creatures sharing their chambers, vaults, and tunnels.</FlavorText>
+        <AppearanceDescription />
+        <Type>Humanoid</Type>
+        <Subtype>gnome</Subtype>
+        <Size>Small</Size>
+        <BaseSpeed>20</BaseSpeed>
+        <AttributePackage>MixedWeakness</AttributePackage>
+        <AttributeModifiers>
+            <Strength>-2</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>-4</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Gnome,Undercommon</StartingLanguages>
+        <AvailableLanguages>Aklo,Common,Draconic,Dwarven,Elven,Goblin,Terran</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Defensive Training, Greater</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Lucky, Greater</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell Resistance, Greater</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Underground Sneak</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Stonecunning</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Svirfneblin Magic</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Hatred</Name>
+                <Rank>Dwarf;Reptilian</Rank>
+            </Trait>
+            <Trait>
+                <Name>Darkvision 120 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="9">
+        <Name>Vanara</Name>
+        <NamePlural>Vanaras</NamePlural>
+        <NameAdjective>Vanara</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Vanaras are intelligent, monkeylike humanoids that live in deep, warm forests and lush jungles.</FlavorText>
+        <AppearanceDescription>A vanara's body is covered in a thin coat of soft fur, and individuals with chestnut, ivory, and even golden coats are common. Despite their fur, vanaras can grow lengthy hair on their head just as humans can, and both male and female vanaras take pains to wear elaborate hairstyles for important social functions. The hair on a vanara's head matches the color of its fur. All vanaras have long, prehensile tails and handlike feet capable of well-articulated movements. A vanara stands slightly shorter and weighs slightly less than a typical human.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>vanara</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <AvailableLanguages>Aklo,Celestial,Elven,Gnome,Goblin,Sylvan</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Climb</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Acrobatics</Rank>
+                <Rank>Stealth</Rank>
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Prehensile Tail</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="14">
+        <Name>Vishyanka</Name>
+        <NamePlural>Vishyankas</NamePlural>
+        <NameAdjective>Vishyanka</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Vishkanyas are a race of exotic humanoids with poisonous blood. They cannot be generalized as good or evil, but since they truly speak with forked tongues, they are content to accept the gold they're offered and leave questions of morality to others.</FlavorText>
+        <AppearanceDescription>Possessed of an alien beauty, these graceful humanoids see the world through serpentine eyes of burnished gold. Their supple skin is covered with tiny scales, often of a light green, which are sometimes arrayed in patterns not unlike those of a serpent.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>vishkanya</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>-2</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Escape Artist</Rank>
+                <Rank>Perception</Rank>
+                <Rank>Stealth</Rank>
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Poison Use</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Toxic</Name>
+                <Rank>Paralytic Venom</Rank>
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Blowgun;Kukri</Rank>
+                <Rank>Shuriken;Vishyanka Weapons</Rank>
+            </Trait>
+            <Trait>
+                <Name>Poison Resistance</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <!-- Wayang? -->
+    <!-- ADVANCED RACE GUIDE EXAMPLES -->
+    <Race Points="29">
+        <Name>Centaur</Name>
+        <NamePlural>Centaurs</NamePlural>
+        <NameAdjective>Centaur</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Aloof with other races and at odds even with their own kind, the centaurs are an old race only slowly coming to accept the modern world. While the majority of centaurs still live in tribes roaming vast plains or the fringes of eldritch forests, many have abandoned the isolationist ways of their ancestors to walk among the more cosmopolitan cities of the world. Often such free-spirited centaurs are considered outcasts and are shunned by their own tribes, making the decision to leave a heavy one. In some rare cases, however, whole tribes under progressive leaders have come to trade or make alliances with other humanoid communities—typically elves, but sometimes gnomes, and rarely humans or dwarves. Many races remain wary of centaurs, though, largely due to legends of territorial beastmen and the regular, violent encounters the centaurs have with stubborn settlers and expansionist countries.</FlavorText>
+        <AppearanceDescription>Legendary hunters and skilled warriors, centaurs are part man and part horse. Typically found on the fringes of civilization, these stoic people vary widely in appearance, their skin tones typically appearing deeply tanned but similar to the humans who occupy nearby regions, while their lower bodies borrow the colorations of local equines. Centaur hair and eyes trend toward darker colors and their features tend to be broad, while the overall bulk of their bodies is influenced by the size of the horses their lower quarters resemble. Thus, while an average centaur stands over 7 feet tall and weights upward of 2,000 pounds, there are vast regional variations—from lean plains-runners to burly mountain hunters. Centaurs typically live to be about 60 years old.</AppearanceDescription>
+        <Type>Monstrous Humanoid</Type>
+        <Subtype />
+        <Size>Large</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Flexible</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+2</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Advanced Constitution</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Advanced Strength</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Advanced Dexterity</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Fast</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Quadruped</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="35">
+        <Name>Drider</Name>
+        <NamePlural>Driders</NamePlural>
+        <NameAdjective>Drider</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Created from the body of a drow, warped and mutated through special poisons and elixirs to take on the characteristics of a giant spider, the drider is a dangerous creature.</FlavorText>
+        <AppearanceDescription>Driders are sexually dimorphic. A female drider's lower spider body is sleek and graceful, often similar to a black widow's body, while its upper drow torso retains its alluring curves and beautiful face (with the exception of sharp, poisonous fangs). A male drider's lower body is bulky like a tarantula, while its upper body is wiry and bears a hideous face more spider than drow, complete with fanged mandibles.</AppearanceDescription>
+        <Type>Aberration</Type>
+        <Subtype />
+        <Size>Large</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Flexible</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Advanced Constitution</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Advanced Dexterity</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Advanced Strength</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell Resistance, Greater</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Climb</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Quadruped</Name>
+                <Rank />
+                <Rank />
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="41">
+        <Name>Drow Noble</Name>
+        <NamePlural>Drow Nobles</NamePlural>
+        <NameAdjective>Drow Noble</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>About one out of every 20 drow is gifted with special powers from birth—the overwhelming majority of these exceptional drow are female, and as a result, drow society tends to be matriarchal in nature. These special births are engineered and encouraged among the ruling caste, and are far more likely to occur when the mother is of noble heritage. Strangely, the status of the father seems not to increase or decrease the chances of a child being born a drow noble. Common drow children born to nobles are usually put to death—sacrificed to one of the many demon gods to whom the drow offer worship. It is rare for a drow noble to be born to common parents, but those who are usually murder their parents or family before they come of age in order to hide the truth of their base upbringing and to ease the processes of joining one of their society's noble houses. Drow nobles are more powerful than the majority of their kin, and as such they quickly rise to power within their houses. Advancement through the hierarchy of a drow noble house is usually accomplished through a combination of assassination, seduction, and treachery, leading most drow in power to be overly paranoid.</FlavorText>
+        <AppearanceDescription>Drow nobles are similar in stature to humans, but share the slender build and features of elves, including the distinctive long, pointed ears. Their eyes lack pupils and are usually solid white or red. drow skin ranges from coal black to a dusky purple. Their hair is typically white or silver, though some variation is not unknown.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>elf</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Advanced</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+4</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+2</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Elven Immunities</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell Resistance, Greater</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Perception</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, At-Will</Name>
+                <Rank>Dancing Lights</Rank>
+                <Rank>Deeper Darkness</Rank>
+                <Rank>Faerie Fire</Rank>
+                <Rank>Feather Fall</Rank>
+                <Rank>Levitate</Rank>
+            </Trait>
+            <Trait>
+                <Name>Constant Spell-Like Divination</Name>
+                <Rank>Detect Magic</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Divine Favor</Rank>
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Greater</Name>
+                <Rank>Dispel Magic</Rank>
+                <Rank>Suggestion</Rank>
+            </Trait>
+            <Trait>
+                <Name>Poison Use</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 120 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Light Blindness</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Weapon Familiarity</Name>
+                <Rank>Hand Crossbow;Rapier</Rank>
+                <Rank>Short Sword</Rank>
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="36">
+        <Name>Gargoyle</Name>
+        <NamePlural>Gargoyles</NamePlural>
+        <NameAdjective>Gargoyle</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Gargoyles tend toward obsessive-compulsive behaviors that are as varied as their kind is plentiful. Books, stolen trinkets, weapons, and grisly trophies harvested from fallen foes are just a few examples of the types of things a gargoyle might collect to decorate its lair and territory. Gargoyles tend toward a solitary lifestyle, though they sometimes form fearsome groups called “wings” for protection and sport. In certain conditions, a tribe of gargoyles might even ally with other creatures, but even the most stable alliances with a gargoyle tribe can collapse for the smallest of reasons—gargoyles are nothing if not treacherous, petty, and vindictive.</FlavorText>
+        <AppearanceDescription />
+        <Type>Monstrous Humanoid</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Paragon</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+4</Constitution>
+            <Intelligence>-2</Intelligence>
+            <Wisdom>-2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Advanced Strength</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Damage Reduction</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Improved Damage Reduction</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Improved Natural Armor</Name>
+                <Rank />
+                <Rank />
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Skill Bonus</Name>
+                <Rank>Stealth</Rank>
+            </Trait>
+            <Trait>
+                <Name>Flight</Name>
+                <Rank />
+                <Rank />
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Bite</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Claws</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Natural Attack (Gore)</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="12">
+        <Name>Gathlain</Name>
+        <NamePlural>Gathlains</NamePlural>
+        <NameAdjective>Gathlain</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>These strange fey creatures have a symbiotic relationship with an ivy-like plant that serves as their wings. The relationship is so close, it is impossible to separate fey from plant. Gathlains are sometimes helpful, often mischievous, and native to deep primeval forests and jungles, but are also prone to wanderlust and adventuring.</FlavorText>
+        <AppearanceDescription />
+        <Type>Fey</Type>
+        <Subtype />
+        <Size>Small</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>-2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common,Sylvan</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Spell-Like Ability, Lesser</Name>
+                <Rank>Entangle</Rank>
+                <Rank>Feather Step</Rank>
+            </Trait>
+            <Trait>
+                <Name>Flight</Name>
+                <Rank />
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="6">
+        <Name>Gnoll</Name>
+        <NamePlural>Gnolls</NamePlural>
+        <NameAdjective>Gnoll</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Gnolls are capable hunters, but are far happier to scavenge or steal a kill than to go out and track down prey. This laziness impels them to acquire slaves of whatever type is available, whom they force to dig warrens, gather supplies and water, and even hunt for their gnoll masters.</FlavorText>
+        <AppearanceDescription>Gnolls are a race of hulking, humanoids that resemble hyenas in more than mere appearance; they show a striking affinity with the scavenging animals, to the point of keeping them as pets, and reflect many of the lesser creatures' behaviors.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>gnoll</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Flexible</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+2</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="20">
+        <Name>Kasatha</Name>
+        <NamePlural>Kasatha</NamePlural>
+        <NameAdjective>Kasatha</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Hunters and raiders of the wasteland, the clannish, four-armed kasatha guard their territories by way of lightning-fast raids and terrifying assaults. As young adults, some members of this race roam the world for a full year looking for adventure and treasure to bring back to their clans. A renegade few decide to forsake their clan and spend their life adventuring.</FlavorText>
+        <AppearanceDescription />
+        <Type>Humanoid</Type>
+        <Subtype>kasatha</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Flexible</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Defensive Training, Greater</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Desert Runner</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Stalker</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Terrain Stride</Name>
+                <Rank>Desert</Rank>
+            </Trait>
+            <Trait>
+                <Name>Multi-Armed</Name>
+                <Rank />
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Jumper</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="9">
+        <Name>Lizardfolk</Name>
+        <NamePlural>Lizardfolk</NamePlural>
+        <NameAdjective>Lizardfolk</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Lizardfolk are proud and powerful reptilian predators that make their communal homes in scattered villages deep within swamps and marshes. Uninterested in colonization of the dry lands and content with the simple weapons and rituals that have served them well for millennia, lizardfolk are viewed by many other races as backwater savages, but within their isolated communities lizardfolk are actually a vibrant people filled with tradition and an oral history stretching back to before humans walked upright.</FlavorText>
+        <AppearanceDescription>Most lizardfolk stand 6 to 7 feet tall and weigh 200 to 250 pounds, their powerful muscles covered in scales of gray, green, or brown. Some breeds have short dorsal spikes or brightly colored frills, and all swim well by moving with flicks of their powerful 4-foot-long tails. While completely at home in the water, they breathe air and return to their clustered mound-dwellings to breed and sleep. As their reptilian blood makes them sluggish in the cold, most lizardfolk hunt and work during the day and retreat to their homes at night to curl up with other tribesmen in the shared warmth of large peat fires.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype>reptilian</Subtype>
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Flexible</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+2</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+2</Constitution>
+            <Intelligence>+0</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Xenophobe</LanguageQuality>
+        <StartingLanguages>Draconic</StartingLanguages>
+        <AvailableLanguages>Common</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Bite</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Claws</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Swim</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="23">
+        <Name>Ogre</Name>
+        <NamePlural>Ogres</NamePlural>
+        <NameAdjective>Ogre</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Stories are told of ogres—horrendous stories of brutality and savagery, cannibalism and torture. Of rape and dismemberment, necrophilia, incest, mutilation, and all manners of hideous murder. Those who have not encountered ogres know the stories as warnings. Those who have survived such encounters know these tales to be tame compared to the truth.</FlavorText>
+        <AppearanceDescription>A typical adult ogre stands 10 feet tall and weighs roughly 650 pounds.</AppearanceDescription>
+        <Type>Humanoid</Type>
+        <Subtype />
+        <Size>Large</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Paragon</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+4</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>-2</Intelligence>
+            <Wisdom>-2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Advanced Constitution</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Advanced Wisdom</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Improved Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Natural Armor</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Reach</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Darkvision 60 ft.</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Low-Light Vision</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="26">
+        <Name>Trox</Name>
+        <NamePlural>Trox</NamePlural>
+        <NameAdjective>Trox</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>These large and horrid burrowers are native to mountains and highlands, but are often enslaved to serve as terrifying shock troops in marauding armies or as gladiatorial spectacles. Some trox earn their freedom and find employment as bodyguards, thugs, or even adventurers.</FlavorText>
+        <AppearanceDescription />
+        <Type>Monstrous Humanoid</Type>
+        <Subtype />
+        <Size>Large</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Paragon</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+4</Strength>
+            <Dexterity>+0</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>-2</Intelligence>
+            <Wisdom>-2</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Xenophobe</LanguageQuality>
+        <StartingLanguages>Terran</StartingLanguages>
+        <AvailableLanguages>Common</AvailableLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Advanced Strength</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Burrow</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Frenzy</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Grabbing Appendages</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+    <Race Points="20">
+        <Name>Wyrwood</Name>
+        <NamePlural>Wyrwoods</NamePlural>
+        <NameAdjective>Wyrood</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>The original wyrwoods were created centuries ago to serve a wizard as spies and emotionless apprentices. The wizard's downfall came about when he granted them free will, which in addition to their cold, calculating intelligence heralded the birth of a strange new race. The wyrwoods murdered their former master and stole the secrets of their own creation, which they jealously guard and rigorously control.</FlavorText>
+        <AppearanceDescription />
+        <Type>Construct</Type>
+        <Subtype />
+        <Size>Small</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>+2</Intelligence>
+            <Wisdom>+0</Wisdom>
+            <Charisma>-2</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits />
+    </Race>
+    <Race Points="17">
+        <Name>Wyvaran</Name>
+        <NamePlural>Wyvarans</NamePlural>
+        <NameAdjective>Wyvaran</NameAdjective>
+        <Paizo>True</Paizo>
+        <FlavorText>Thought to be a fusion of kobolds and wyverns, wyvarans are often found leading kobold tribes, serving wyverns, or even dwelling among true dragons. Like wyverns, they are territorial creatures, but also have an acute sense of honor. Depending on how they are treated, wyvarans can become powerful allies or deadly enemies.</FlavorText>
+        <AppearanceDescription />
+        <Type>Dragon</Type>
+        <Subtype />
+        <Size>Medium</Size>
+        <BaseSpeed>30</BaseSpeed>
+        <AttributePackage>Standard</AttributePackage>
+        <AttributeModifiers>
+            <Strength>+0</Strength>
+            <Dexterity>+2</Dexterity>
+            <Constitution>+0</Constitution>
+            <Intelligence>-2</Intelligence>
+            <Wisdom>+2</Wisdom>
+            <Charisma>+0</Charisma>
+        </AttributeModifiers>
+        <LanguageQuality>Standard</LanguageQuality>
+        <StartingLanguages>Common</StartingLanguages>
+        <RacialTraits>
+            <Trait>
+                <Name>Flight</Name>
+                <Rank />
+            </Trait>
+            <Trait>
+                <Name>Slapping Tail</Name>
+                <Rank />
+            </Trait>
+        </RacialTraits>
+    </Race>
+</RaceDatabase>

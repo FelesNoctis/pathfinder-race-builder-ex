@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ItemDatabase>
+	<!-- SIMPLE - UNARMED ATTACKS -->
+	<Weapon>
+		<Name>Unarmed Strike</Name>
+		<Description>An unarmed strike is always considered a light weapon. Therefore, you can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with an unarmed strike. Unarmed strikes do not count as natural weapons (see Combat). The damage from an unarmed strike is considered weapon damage for the purposes of effects that give you a bonus on weapon damage rolls.</Description>
+		<Damage>1d3</Damage>
+		<Type>Bludgeoning</Type>
+		<Weight>0</Weight>
+		<Value>0</Value>
+		<Category>Light</Category>
+		<Special>Monk,Nonlethal</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Gauntlet</Name>
+		<Description>This metal glove lets you deal lethal damage rather than nonlethal damage with unarmed strikes. A strike with a gauntlet is otherwise considered an unarmed attack. Your opponent cannot use a disarm action to disarm you of gauntlets.</Description>
+		<Damage>1d3</Damage>
+		<Type>Bludgeoning</Type>
+		<Weight>1</Weight>
+		<Value>2</Value>
+		<Category>Light</Category>
+	</Weapon>
+	<!-- SIMPLE - LIGHT MELEE WEAPONS -->
+	<Weapon>
+		<Name>Battle Aspergillum</Name>
+		<Description>Named for the common aspergillum, a mace-like tool used by priests to sprinkle holy water, this light mace has a hollow head and a metal plug to fit the hollow’s neck.</Description>
+		<Damage>1d6</Damage>
+		<Type>Bludgeoning</Type>
+		<Weight>4</Weight>
+		<Category>Light</Type>
+	</Weapon>
+	<Weapon>
+		<Name>Brass Knife</Name>
+		<Description>Pirates often carry long brass knives for working aboard a ship. Though brass doesn’t hold as sharp an edge as steel, it isn’t vulnerable to rust like steel is. In a pinch, a pirate can use his brass knife as a weapon. Mostly, though, they are used for cutting ropes, cleaning fish, and other sundry tasks.</Description>
+		<Damage>1d4</Damage>
+		<Type>Piercing,Or,Slashing</Type>
+		<CritRange>19</CritRange>
+		<Weight>1</Weight>
+		<Value>1</Value>
+		<Category>Light</Category>
+		<Special>Fragile</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Brass Knuckles</Name>
+		<Description>These close combat weapons are designed to fit comfortably around the knuckles, narrowing the contact area and therefore magnifying the amount of force delivered by a punch.</Description>
+		<Damage>1d3</Damage>
+		<Type>Bludgeoning</Type>
+		<Weight>1</Weight>
+		<Value>1</Value>
+		<Category>Light</Category>
+		<Special>Monk</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Cestus</Name>
+		<Description>The cestus is a glove of leather or thick cloth that covers the wielder from mid-finger to mid-forearm. The close combat weapon is reinforced with metal plates over the fingers and often lined with wicked spikes along the backs of the hands and wrists.</Description>
+		<Damage>1d4</Damage>
+		<Type>Bludgeoning,Or,Piercing</Type>
+		<CritRange>19</CritRange>
+		<Weight>1</Weight>
+		<Value>5</Value>
+		<Category>Light</Category>
+		<Special>Monk</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Dagger</Name>
+		<Description>A dagger has a blade that is about 1 foot in length.</Description>
+		<Damage>1d4</Damage>
+		<Type>Piercing,Or,Slashing</Type>
+		<CritRange>19</CritRange>
+		<Range>10</Range>
+		<Weight>1</Weight>
+		<Value>2</Value>
+		<Category>Light</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Punching Dagger</Name>
+		<Description>A punching dagger's blade is attached to a horizontal handle that projects out from the fist when held.</Description>
+		<Damage>1d4</Damage>
+		<Type>Piercing</Type>
+		<CritMultiplier>3</CritMultiplier>
+		<Weight>1</Weight>
+		<Value>2</Value>
+		<Category>Light</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Spiked Gauntlet</Name>
+		<Description>An attack with a spiked gauntlet is considered an armed attack. Your opponent cannot use a disarm action to disarm you of spiked gauntlets.</Description>
+		<Damage>1d4</Damage>
+		<Type>Piercing</Type>
+		<Weight>1</Weight>
+		<Value>5</Value>
+		<Category>Light</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Hook Hand</Name>
+		<Description>Pirates who lose a hand in the course of their adventures sometimes attach hooks to their wrists.
+
+Your opponent cannot use a disarm action to disarm you of a hook hand. Hook hands generally do not interfere with routine activities, but you cannot use another weapon two-handed if you have a hook hand attached. You cannot use any type of weapon if both your hands are hook hands, and you may have trouble with routine activities.
+
+Hook hands presume that the wrist joint is intact. If the wrist joint is not intact, use the prosthesis statistics instead. It takes 1 minute to attach or detach a hook hand.</Description>
+		<Damage>1d4</Damage>
+		<Type>Slashing</Type>
+		<Weight>1</Weight>
+		<Value>10</Value>
+		<Category>Light</Category>
+		<Special>Disarm</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Light Mace</Name>
+		<Description>A light mace is made up of an ornate metal head attached to a simple wooden or metal shaft.</Description>
+		<Damage>1d6</Damage>
+		<Type>Bludgeoning</Type>
+		<Weight>4</Weight>
+		<Value>5</Value>
+		<Category>Light</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Sickle</Name>
+		<Description>TODO</Description>
+		<Damage>1d6</Damage>
+		<Type>Slashing</Type>
+		<Weight>2</Weight>
+		<Value>6</Value>
+		<Category>Light</Category>
+		<Special>Trip</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Wooden Stake</Name>
+		<Description>This close combat weapon is just a sharpened piece of wood.</Description>
+		<Damage>1d4</Damage>
+		<Type>Piercing</Type>
+		<Range>10</Range>
+		<Weight>1</Weight>
+		<Value>0</Value>
+		<Category>Light</Category>
+	</Weapon>
+	<!-- SIMPLE - ONE-HANDED MELEE WEAPONS -->
+	<Weapon>
+		<Name>Club</Name>
+		<Description>A club is a blunt object usually made of wood.</Description>
+		<Damage>1d6</Damage>
+		<Type>Bludgeoning</Type>
+		<Range>10</Range>
+		<Weight>3</Weight>
+		<Value>0</Value>
+		<Category>OneHanded</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Mere Club</Name>
+		<Description>Traditionally made of carved stone, the mere (MEH-reh) is a short, flat-sided, sharp-pointed club.</Description>
+		<Damage>1d4</Damage>
+		<Type>Bludgeoning,Or,Piercing</Type>
+		<Weight>2</Weight>
+		<Value>2</Value>
+		<Category>OneHanded</Category>
+		<Special>Fragile</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Heavy Mace</Name>
+		<Description>A heavy mace has a larger head and a longer handle than a normal (light) mace.</Description>
+		<Damage>1d8</Damage>
+		<Type>Bludgeoning</Type>
+		<Weight>8</Weight>
+		<Value>12</Value>
+		<Category>OneHanded</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Morningstar</Name>
+		<Description>A morningstar is a spiked metal ball, affixed to the top of a long handle.</Description>
+		<Damage>1d8</Damage>
+		<Type>Bludgeoning,And,Piercing</Type>
+		<Weight>6</Weight>
+		<Value>8</Value>
+		<Category>OneHanded</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Shortspear</Name>
+		<Description>A shortspear is about 3 feet in length, making it a suitable thrown weapon.</Description>
+		<Damage>1d6</Damage>
+		<Type>Piercing</Type>
+		<Range>20</Range>
+		<Weight>3</Weight>
+		<Value>1</Value>
+		<Category>OneHanded</Category>
+	</Weapon>
+	<!-- SIMPLE - TWO-HANDED MELEE WEAPONS -->
+	<Weapon>
+		<Name>Bayonet</Name>
+		<Description>Bayonets are close combat weapons designed to fit into the grooves or muzzles of crossbows and firearms.</Description>
+		<Damage>1d6</Damage>
+		<Type>Piercing</Type>
+		<Weight>1</Weight>
+		<Value>5</Value>
+		<Category>TwoHanded</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Boarding Pike</Name>
+		<Description>A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like longspears, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water and cause rust. Boarding pikes are mainly used defensively, to repel boarding actions. The pikes are kept in brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to repel boarders.</Description>
+		<Damage>1d8</Damage>
+		<Type>Piercing</Type>
+		<CritMultiplier>3</CritMultiplier>
+		<Weight>9</Weight>
+		<Value>8</Value>
+		<Category>TwoHanded</Category>
+		<Special>Brace,Reach</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Longspear</Name>
+		<Description>A longspear is about 8 feet in length.</Description>
+		<Damage>1d8</Damage>
+		<Type>Piercing</Type>
+		<CritMultiplier>3</CritMultiplier>
+		<Weight>9</Weight>
+		<Value>5</Value>
+		<Category>TwoHanded</Category>
+		<Special>Brace,Reach</Special>
+	</Weapon>
+	<DoubleWeapon>
+		<Name>Quarterstaff</Name>
+		<Description>A quarterstaff is a simple piece of wood, about 5 feet in length.</Description>
+		<Damage>1d6/1d6</Damage>
+		<Type>Bludgeoning</Type>
+		<Weight>4</Weight>
+		<Value>0</Value>
+		<Category>TwoHanded</Category>
+		<Special>Monk</Special>
+	</DoubleWeapon>
+	<Weapon>
+		<Name>Spear</Name>
+		<Description>A spear is 5 feet in length and can be thrown.</Description>
+		<Damage>1d8</Damage>
+		<Type>Piercing</Type>
+		<Range>20</Range>
+		<Weight>6</Weight>
+		<Value>2</Value>
+		<Category>TwoHanded</Category>
+		<Special>Brace</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Boar Spear</Name>
+		<Description>This spear with a spiraling blade has a metal crossbar approximately halfway down its length.
+
+If you ready a boar spear against a charge and your attack hits, you get a +2 shield bonus to your AC against that creature until your next turn.</Description>
+		<Damage>1d8</Damage>
+		<Type>Piercing</Type>
+		<Weight>8</Weight>
+		<Value>5</Value>
+		<Category>TwoHanded</Category>
+		<Special>Brace</Special>
+	</Weapon>
+	<!-- SIMPLE - RANGED WEAPONS -->
+	<Weapon>
+		<Name>Blowgun</Name>
+		<Description>Blowguns are generally used to deliver debilitating (but rarely fatal) poisons from a distance. They are nearly silent when fired.</Description>
+		<Damage>1d2</Damage>
+		<Type>Piercing</Type>
+		<Range>20</Range>
+		<Weight>1</Weight>
+		<Value>2</Value>
+		<Category>TwoHanded</Category>
+		<Special>RangedAmmunition</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Heavy Crossbow</Name>
+		<Description>TODO</Description>
+		<Damage>1d10</Damage>
+		<Type>Piercing</Type>
+		<CritRange>19</CritRange>
+		<Range>120</Range>
+		<Weight>8</Weight>
+		<Value>50</Value>
+		<Category>TwoHanded</Category>
+		<Special>RangedAmmunition</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Heavy Underwater Crossbow</Name>
+		<Description>An underwater crossbow functions like its normal counterpart above water, and can be used underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient with a normal crossbow can use an underwater crossbow.</Description>
+		<Damage>1d10</Damage>
+		<Type>Piercing</Type>
+		<CritRange>19</CritRange>
+		<Range>120</Range>
+		<Weight>8</Weight>
+		<Value>100</Value>
+		<Category>TwoHanded</Category>
+		<Special>RangedAmmunition</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Light Crossbow</Name>
+		<Description>TODO</Description>
+		<Damage>1d8</Damage>
+		<Type>Piercing</Type>
+		<CritRange>19</CritRange>
+		<Range>80</Range>
+		<Weight>4</Weight>
+		<Value>35</Value>
+		<Category>TwoHanded</Category>
+		<Special>RangedAmmunition</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Light Underwater Crossbow</Name>
+		<Description>An underwater crossbow functions like its normal counterpart above water, and can be used underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient with a normal crossbow can use an underwater crossbow.</Description>
+		<Damage>1d8</Damage>
+		<Type>Piercing</Type>
+		<CritRange>19</CritRange>
+		<Range>80</Range>
+		<Weight>4</Weight>
+		<Value>70</Value>
+		<Category>TwoHanded</Category>
+		<Special>RangedAmmunition</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Dart</Name>
+		<Description>Darts are missile weapons, designed to fly such that a sharp, often weighted point will strike first. They can be distinguished from javelins by fletching (i.e., feathers on the tail) and a shaft that is shorter and/or more flexible, and from arrows by the fact that they are not of the right length to use with a normal bow.</Description>
+		<Damage>1d4</Damage>
+		<Type>Piercing</Type>
+		<Range>20</Range>
+		<Weight>0.5</Weight>
+		<Value>0.5</Value>
+		<Category>OneHanded</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Javelin</Name>
+		<Description>A javelin is a thin throwing spear.
+
+Since a javelin is not designed for melee, you are treated as non-proficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.</Description>
+		<Damage>1d6</Damage>
+		<Type>Piercing</Type>
+		<Range>30</Range>
+		<Weight>2</Weight>
+		<Value>1</Value>
+		<Category>OneHanded</Category>
+	</Weapon>
+	<Weapon>
+		<Name>Sling</Name>
+		<Description>A sling is little more than a leather cup attached to a pair of strings.
+
+Loading a sling is a move action that requires two hands and provokes attacks of opportunity.
+
+You can hurl ordinary stones with a sling, but stones are not as dense or as round as bullets. Thus, such an attack deals damage as if the weapon were designed for a creature one size category smaller than you and you take a -1 penalty on attack rolls.</Description>
+		<Damage>1d4</Damage>
+		<Type>Bludgeoning</Type>
+		<Range>50</Range>
+		<Weight>0</Weight>
+		<Value>0</Value>
+		<Category>OneHanded</Category>
+		<Special>RangedAmmunition,RangedStrengthBonus</Special>
+	</Weapon>
+	<Weapon>
+		<Name>Stingchuck</Name>
+		<Description>A stingchuck is a foul bag made of a humanoid’s head with the brain removed and the skull heavily scored so that it bursts open when thrown.
+
+Normally filled with biting vermin, a stingchuck acts as a splash weapon. When it hits, the vermin bite and sting the target, dealing 1d6 points of damage and forcing a DC 11 Fortitude save to avoid being nauseated for 1d3 rounds. Each round a creature remains nauseated by a stingchuck, it takes 1 additional point of damage from the biting vermin. All creatures within the splash effect take 1 point of damage from the vermin but do not risk being nauseated.</Description>
+		<Damage>1d4</Damage>
+		<Type>Bludgeoning</Type>
+		<Range>10</Range>
+		<Weight>9</Weight>
+		<Value>0</Value>
+		<Category>OneHanded</Category>
+	</Weapon>
+	<!-- MARTIAL - LIGHT MELEE WEAPONS -->
+	<Weapon>
+		<Name>Boarding Axe</Name>
+		<Damage>1d6</Damage>
+		<CritMultiplier>3</CritMultiplier>
+		<Type>Piercing,Or,Slashing</Type>
+		<Weight>3</Weight>
+		<Value>6</Value>
+		<Category>Light</Category>
+		<Proficiency>Martial</Proficiency>
+	</Weapon>
+	<Weapon>
+		<Name>Throwing Axe</Name>
+		<Damage>1d6</Damage>
+		<Type>Slashing</Type>
+		<Range>10</Range>
+		<Weight>2</Weight>
+		<Value>8</Value>
+		<Category>Light</Category>
+		<Proficiency>Martial</Proficiency>
+	</Weapon>
+</ItemDatabase>
